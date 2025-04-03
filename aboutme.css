@@ -80,6 +80,7 @@ ul {
     border-radius: 10px;
     border: none;
     font-size:10px;
+    height:600px;
 }
 .container{
     display: flex;
