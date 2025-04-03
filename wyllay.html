@@ -1,44 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Wilberforce Omuyonga Website</title>
+    <title>Wyllay portfolio</title>
     <link rel="stylesheet" href="wyllay.css">
     <meta charset="UTF-8">
 </head>
 <body>
     <div >
        <div>
-        <ul class="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">JOIN ME</a></li>
-            <li><a href="#">Contact me</a></li>
+        <ul class="navbar"> 
+            <li><a href="wyllay.html" class="home">Home</a></li>
+            <li class="aboutus"><a href="aboutme.html">About me</a></li>
+            <li class="contactus"><a href="contactme.html">Contact me</a></li>
         </ul>
        </div> 
-        <p><strong>WELCOME TO MY WEBSITE! </strong>I am dedicated to providing the best services.</p>
-        <p>My services include:</p>
-        <p>I focus on quality, reliability, and customer satisfaction.</p>
-        <p>I can also provide links to other computer scientists based in other fields within computer science</p>
-       
-        <p>Get in touch with us for more information! 
-            click the contact us link above to get in touch with us.
-        </p>
-        <p>Follow us on social media for updates and offers!</p>
-        <p>Stay connected with us!</p>
-        <p>If you intend to learn click on the join button to join your fellow learners and exchange ideas</p>
+        <p><strong>WELCOME TO MY PORTFOLIO! </strong>feel free to navigate through.</p>
+        <p>Crafting code, creating solutions, and sharing ideas. Let's build something amazing together.</p>
+        <p>Stay connected with me!</p>
     </div>
     <div class="contact">
         <h1>CONTACT ME</h1>
-        <p>Fill in the form below to get in touch with us.</p>
-        <form action="contact.php" method="post" class="form">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br>
-            <button type="submit">Submit</button>
+        <p>Fill in the form below to get in touch with me.</p>
+        <form method="post" class="form" id="submit-to-google-sheet">
+            <form name="submit-to-google-sheet">
+                <label for="name" >Name:</label><br>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <label for="email">Email:</label><br>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <label for="message">Message:</label><br>
+                <textarea name="Message" rows="5" cols="30" placeholder="Your Message"></textarea>
+                <button onclick="alert('Form submitted!');" type="submit" class="submit">Submit</button>
+            </form>
+        </form>
     </div>
+    <script src="wyllay.js"></script>
 </body>
 </html>

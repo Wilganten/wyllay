@@ -1,18 +1,36 @@
 body {
-    margin: 0px;
-    padding: 0px;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-image: url(wyllay\ image.jpg);
     background-image: contain;
     background-size: cover;
     color: white;
+    
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.list {
+    list-style-type: none;
+}
+footer {
+    background-color:black;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+a {
+    color: #fff;
+    text-decoration: none;
 }
 .navbar {
     background-color: green;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     padding: 20px;
     border-radius:0px;
 }
@@ -34,33 +52,18 @@ ul {
     padding: 0;
     overflow: hidden;
 }
-.contact{
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    margin-top: 20px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-}
-.home{
-    border-radius: 20px;
-    background-attachment: fixed;
-    color: black;
-}
-.submit{
+.sidenavbar{
     background-color: green;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-top: 10px;
-    cursor: pointer;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: ;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 0px;
+    z-index: 1;
+    float: left;
 }
