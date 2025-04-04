@@ -79,6 +79,7 @@ ul {
     padding: 20px;
     border-radius: 10px;
     border: none;
+    font-size:14px;
 }
 .container{
     display: flex;
